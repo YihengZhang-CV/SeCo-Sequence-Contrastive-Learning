@@ -18,7 +18,7 @@ bash main_train.sh
 ### Evaluation of linear classification
 With a pre-trained model, to train a supervised linear SVM classifier on frozen features/weights, put the python interface of [liblinear](https://www.csie.ntu.edu.tw/~cjlin/liblinear/) into the **liblinear** folder, and run:
 ```
-bash main_eval.sh
+bash main_val.sh
 ```
 
 ## Citation
